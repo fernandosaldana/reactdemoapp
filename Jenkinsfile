@@ -10,7 +10,7 @@ node{
     }
 
     stage("Push image to Dockerhub"){
-	sh 'docker login -u fernandosaldana -p password'
+	sh 'docker login -u fernandosaldana -p 9C3r@#8144'
         sh 'docker push fernandosaldana/fsdreactdemo:latest'
     }
 }
